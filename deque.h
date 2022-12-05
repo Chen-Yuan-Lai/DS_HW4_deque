@@ -23,6 +23,7 @@ public:
 private:
     class Node
     {
+    public:
         Node(T element = 0) : data(element), left(0), right(0) {}
         T data;
         Node *right, *left;

@@ -60,6 +60,6 @@ void deque<T>::insertRear(const T data)
     Node *p = new Node(data);
     first->left->right = p;
     p->left = first->left;
-    first->left = P;
+    first->left = p;
     p->right = first;
 }
