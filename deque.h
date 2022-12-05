@@ -1,4 +1,4 @@
-#ifndef DEQUW_H
+#ifndef DEQUE_H
 #define DEQUE_H
 using namespace std;
 
